@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #f8f7fd;
+    position: relative;
+    overflow: hidden;
+}
+
+nav {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left>img {
+    height: 50px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding-left: 1.2vw;
+}
+
+.nav-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.nav-right {
+    padding-right: 3vw;
+    padding-top: .5vw;
+}
+
+.nav-right button {
+    width: 10.5vw;
+    font-size: 0.9vmax;
+    padding: 0 0.8vw;
+    border-radius: 30px;
+    position: relative;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 0.3vw; */
+    font-weight: 800;
+    text-transform: uppercase;
+    border: 2px solid #000;
+}
+
+.nav-right button .circle {
+    height: 2.8vw;
+    width: 2.8vw;
+    border-radius: 50%;
+    background-color: rgb(211, 208, 236);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+nav button img {
+    height: 3vw;
+    background-color: #fff;
+    border-radius: 50%;
+    rotate: -30deg;
+}
+
+#container {
+    height: 56%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container h1 img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    margin: 0 10px;
+    /* Margin around the image */
+    padding: 5px;
+    border-radius: 20%;
+}
+
+/* #container h1 .img1 {
+    width: 100px;
+    height: 130px;
+} */
+
+#container h1 {
+    font-size: 5vw;
+    font-weight: 650;
+
+}
+
+.container-child {
+    display: flex;
+    justify-content: c;
+    align-items: center;
+}
+
+
+
+#bottom {
+    height: 36%;
+    width: 100%;
+    display: flex;
+}
+
+#bottom .bottom-left {
+    width: 65%;
+    height: 100%;
+    position: relative;
+    background-color: #fff;
+    margin-left: 1.1vw;
+}
+
+#bottom .bottom-right {
+    width: 35%;
+    height: 100%;
+    position: relative;
+    background-color: rgb(248, 231, 227);
+    margin-right: 1.1vw;
+}
+
+.up {
+    height: 40%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vw;
+    /* margin-left: 7%; */
+}
+
+.up button {
+    text-transform: uppercase;
+    padding: 0 0.9vw;
+    border-radius: 20px;
+    position: relative;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 1vw; */
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgb(211, 208, 236);
+}
+
+.up h1 {
+    font-weight: 500;
+    font-size: 2.5vw;
+}
+
+.down {
+    width: 95%;
+    height: 60%;
+    padding-left: 2vw;
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0); */
+}
+
+.down .down-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5vw;
+    margin-top: 1vw;
+
+}
+
+.down .down-top img {
+    height: 8vh;
+}
+
+.down .down-top .person1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.down-top .spring,
+.down-low .spring {
+    padding-left: 1vw;
+}
+
+.down-low h4 {
+    margin-left: 1.5vw;
+}
+
+.h5-op {
+    opacity: 0.5;
+}
+
+
+.down-low {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.person2 img {
+    height: 8vh;
+}
+
+.down .down-low .person2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.midLine {
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    opacity: 0.2;
+}
+
+.mystry {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw;
+
+}
+
+.mystry h3 {
+    color: rgb(222, 148, 132);
+    font-weight: 500;
+}
+
+.mystry .mystry-circle {
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mystry .mystry-circle img {
+    height: 1.7vw;
+}
+
+.mood {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw;
+}
+
+.mood img {
+    height: 9.5vw;
+
+}
+
+.mood .mood-left {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.mood .mood-left i {
+    color: rgb(132, 194, 231);
+}
